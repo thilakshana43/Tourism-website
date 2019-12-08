@@ -1,0 +1,173 @@
+
+body{ 
+    font-family: sans-serif;
+}
+        input[type=text], select{
+	    border: none;
+            border-bottom: 1px solid #c3c3c3;
+            background: transparent;
+            outline: none;
+            height: 40px;
+            color: #d5d5d5;
+            font-size: 14px;
+	}
+
+.login-box{
+    width: 320px;
+    height: 470px;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+.login-box input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.login-box input[type="text"], input[type="password"]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+.login-box input[type="submit"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: blue;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+}
+.login-box input[type="submit"]:hover
+{
+    cursor: pointer;
+    background: #39dc79;
+    color: #000;
+}
+.login-box input[type="reset"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    width:85px;
+    background: red;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+}
+.login-box input[type="reset"]:hover
+{
+    cursor: pointer;
+    background: #39dc79;
+    color: #000;
+}
+
+.login-box a{
+    text-decoration: none;
+    font-size: 14px;
+    color: #fff;
+}
+.login-box a:hover
+{
+    color: #39dc79;
+}
+
+.post-box{
+    width: 600px;
+    height: 700px;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+.post-box input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.post-box input[type="text"], input[type="password"],input[type="email"]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+.post-box input[type="submit"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    width:85px;
+    background: blue;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+    width:80px;
+}
+.post-box input[type="submit"]:hover
+{
+    cursor: pointer;
+    background: #39dc79;
+    color: #000;
+}
+.post-box input[type="reset"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    width:85px;
+    background: red;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+}
+.post-box input[type="reset"]:hover
+{
+    cursor: pointer;
+    background: #39dc79;
+    color: #000;
+}
+.post-box input[type="file"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    width:85px;
+    background: blue;
+    color: blue;
+    font-size: 18px;
+    border-radius: 20px;
+    width:80px;
+}
+.post-box input[type="file"]:hover
+{
+    cursor: pointer;
+    background: #39dc79;
+    color:#39dc79 ;
+}
+#txtarea{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    
+    color: #fff;
+    font-size: 16px;
+}
+
